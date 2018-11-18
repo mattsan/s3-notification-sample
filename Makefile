@@ -9,3 +9,4 @@ clean:
 
 deploy: clean build
 	sls deploy --verbose
+	sls s3deploy --verbose
